@@ -1,8 +1,8 @@
 {
+    "homepage": "https://uzzairwebstudio.github.io/logomurah",
     "name": "my-project",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://uzzairwebstudio.github.io/logomurah",
     "type": "module",
     "scripts": {
         "dev": "vite",
