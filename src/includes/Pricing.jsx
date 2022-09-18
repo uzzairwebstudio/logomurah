@@ -16,9 +16,9 @@ function Pricing() {
                         <PricingPackageName name="Kiosk" classes="bg-cyan-100 text-cyan-600" />
                         <PricingRate rate="RM 99" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
-                            <PricingItem item="1 Konsep Logo" />
-                            <PricingItem item="Siap dalam 3 hari" classes="px-2 py-1 inline bg-cyan-100 text-cyan-700 rounded-lg font-medium" />
-                            <PricingItem item="O Kali Perubahan (Revisions)" />
+                            <PricingItem item="1 Konsep Logo" itemHighlight={true} />
+                            <PricingItem item="Siap dalam 3 hari" itemHighlight={true}/>
+                            <PricingItem item="O Kali Perubahan (Revisions)" itemHighlight={true} />
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
                         </ul>
@@ -28,9 +28,9 @@ function Pricing() {
                         <PricingPackageName name="Kedai" classes="bg-orange-100 text-orange-600" />
                         <PricingRate rate="RM 295" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
-                            <PricingItem item="3 Konsep Logo" />
-                            <PricingItem item="Siap dalam 5 hari" />
-                            <PricingItem item="3 Kali Perubahan (Revisions)" />
+                            <PricingItem item="3 Konsep Logo" itemHighlight={true}/>
+                            <PricingItem item="Siap dalam 5 hari" itemHighlight={true}/>
+                            <PricingItem item="3 Kali Perubahan (Revisions)" itemHighlight={true}/>
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
                         </ul>
@@ -40,9 +40,9 @@ function Pricing() {
                         <PricingPackageName name="Kilang" classes="bg-pink-100 text-pink-600" />
                         <PricingRate rate="RM 490" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
-                            <PricingItem item="5 Konsep Logo" />
-                            <PricingItem item="Siap dalam 5 hari" />
-                            <PricingItem item="3 Kali Perubahan (Revisions)" />
+                            <PricingItem item="5 Konsep Logo" itemHighlight={true}/>
+                            <PricingItem item="Siap dalam 5 hari" itemHighlight={true}/>
+                            <PricingItem item="3 Kali Perubahan (Revisions)" itemHighlight={true}/>
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
                         </ul>
