@@ -17,28 +17,34 @@ function Pricing() {
                         <PricingRate rate="RM 99" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
                             <PricingItem item="1 Konsep Logo" />
+                            <PricingItem item="Siap dalam 3 hari" classes="px-2 py-1 inline bg-cyan-100 text-cyan-700 rounded-lg font-medium" />
+                            <PricingItem item="O Kali Perubahan (Revisions)" />
                             <PricingItem item="Warna dan Tipografi" />
-                            <PricingItem item="Logo di atas Mockup" />
+                            <PricingItem item="Logo Bersama Mockup" />
                         </ul>
                         <a href="#" className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-indigo-900">Get started</a>
                     </PricingBody>
                     <PricingBody>
                         <PricingPackageName name="Kedai" classes="bg-orange-100 text-orange-600" />
-                        <PricingRate rate="RM 299" />
+                        <PricingRate rate="RM 295" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
-                            <PricingItem item="1 Konsep Logo" />
+                            <PricingItem item="3 Konsep Logo" />
+                            <PricingItem item="Siap dalam 5 hari" />
+                            <PricingItem item="3 Kali Perubahan (Revisions)" />
                             <PricingItem item="Warna dan Tipografi" />
-                            <PricingItem item="Logo di atas Mockup" />
+                            <PricingItem item="Logo Bersama Mockup" />
                         </ul>
                         <a href="#" className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-indigo-900">Get started</a>
                     </PricingBody>
                     <PricingBody>
                         <PricingPackageName name="Kilang" classes="bg-pink-100 text-pink-600" />
-                        <PricingRate rate="RM 499" />
+                        <PricingRate rate="RM 490" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
-                            <PricingItem item="1 Konsep Logo" />
+                            <PricingItem item="5 Konsep Logo" />
+                            <PricingItem item="Siap dalam 5 hari" />
+                            <PricingItem item="3 Kali Perubahan (Revisions)" />
                             <PricingItem item="Warna dan Tipografi" />
-                            <PricingItem item="Logo di atas Mockup" />
+                            <PricingItem item="Logo Bersama Mockup" />
                         </ul>
                         <a href="#" className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-indigo-900">Get started</a>
                     </PricingBody>
