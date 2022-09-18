@@ -4,7 +4,7 @@ function Header() {
             <div className="max-w-7xl">
                 <nav className="flex items-center justify-between z-10">
                     <div className="">
-                        <img src="/img/logo.svg" alt="Logo img" className="w-20" />
+                        <img src="/public/img/logo.svg" alt="Logo img" className="w-20" />
                     </div>
                     <ul className="flex items-center lg:space-x-8 font-heading">
 
