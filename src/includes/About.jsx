@@ -4,7 +4,11 @@ function About() {
     return (
         <div className="grid grid-cols-3 gap-4">
             <div className="col-span-2 rounded-2xl p-8 bg-white flex flex-col items-center justify-center space-y-6">
-                <img src="/img/fisting.png" className="w-28" alt="" />
+                <div className="flex items-center space-x-1">
+                    <img src="/img/fisting.png" className="h-28" alt="" />
+                    <img src="/img/peace.png" className="h-28" alt="" />
+                </div>
+
                 <p className="font-heading text-gray-400 font-medium text-3xl">siapa Kilang Logo?</p>
                 <p className=" text-2xl font-medium text-gray-700 max-w-xl">
                     Kami merupakan sebuah tim yang berdedikasi dalam pembuatan logo dan ‘brand’. Kilang Logo ditubuhkan dengan tujuan untuk membantu ‘startup’ dan bisnes baharu dapatkan logo yang cantik dengan harga yang murah.
