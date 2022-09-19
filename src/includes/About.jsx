@@ -2,7 +2,7 @@
 function About() {
 
     return (
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4" id="about">
             <div className="col-span-2 rounded-2xl p-8 bg-white flex flex-col items-center justify-center space-y-6">
                 <div className="flex items-center space-x-1">
                     <img src="/img/fisting.png" className="h-28" alt="" />

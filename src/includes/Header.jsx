@@ -1,3 +1,5 @@
+import { Link } from "react-scroll"
+
 function Header() {
     return (
         <section className="bg-white md:mb-10 px-8 pt-6 pb-16 rounded-2xl">
@@ -9,15 +11,15 @@ function Header() {
                     <ul className="flex items-center lg:space-x-8 font-heading">
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
-                            <a href="#">tentang kami</a>
+                        <Link activeClass="active" className="about" to="about" spy={true} smooth={true} duration={500}>tentang kami</Link>
                         </li>
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
-                            <a href="#">hasil kerja</a>
+                        <Link activeClass="active" className="works" to="works" spy={true} smooth={true} duration={500}>hasil kerja</Link>
                         </li>
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
-                            <a href="#">pakej</a>
+                        <Link activeClass="active" className="pricing" to="pricing" spy={true} smooth={true} duration={500}>pakej kami</Link>
                         </li>
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">

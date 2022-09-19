@@ -6,14 +6,14 @@ import PricingRate from "../components/PricingRate"
 function Pricing() {
 
     return (
-        <section className="my-36 rounded-xl">
-            <div className="inline-flex bg-gray-500 py-2 px-3 rounded-full justify-center items-center space-x-1">
+        <section className="my-36 rounded-xl" id="pricing">
+            <div className="inline-flex bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 py-2 px-3 rounded-full justify-center items-center space-x-1">
                 <img src="/img/welcome.png" className="h-28" alt="" />
                 <img src="/img/welcome-2.png" className="h-28" alt="" />
             </div>
             <div className="py-8 max-w-7xl lg:py-16">
                 <div className="mx-auto text-center mb-8 lg:mb-12">
-                    <h2 className="mb-4 font-heading text-4xl tracking-tight font-extrabold text-gray-400 dark:text-white">Berikut Adalah Pakej Kami</h2>
+                    <h2 className="mb-4 font-heading text-6xl tracking-tight font-extrabold text-gray-800 dark:text-white">Pakej Kami</h2>
                 </div>
                 <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-4 lg:space-y-0">
                     <PricingBody>
