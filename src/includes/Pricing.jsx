@@ -2,14 +2,17 @@ import PricingBody from "../components/PricingBody"
 import PricingItem from "../components/PricingItem"
 import PricingPackageName from "../components/PricingPackageName"
 import PricingRate from "../components/PricingRate"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import WhatsappText from "../components/WhatsappText"
 
 function Pricing() {
 
     return (
         <section className="my-10 rounded-xl" id="pricing">
             <div className="inline-flex bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 py-2 px-3 rounded-full justify-center items-center space-x-1">
-                <img src="/img/welcome.png" className="h-28" alt="" />
-                <img src="/img/welcome-2.png" className="h-28" alt="" />
+                <img src="/img/welcome.png" className="h-16 md:h-28" alt="" />
+                <img src="/img/welcome-2.png" className="h-16 md:h-28" alt="" />
             </div>
             <div className="py-8 max-w-7xl lg:py-16">
                 <div className="mx-auto text-center mb-8 lg:mb-12">
@@ -26,7 +29,12 @@ function Pricing() {
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
                         </ul>
-                        <a href="#" className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Get started</a>
+                        <a target="_blank" href={WhatsappText({
+                            text: `Hi, saya berminat dengan pakej Kiosk`
+                        })} className="text-white flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-md px-5 py-2.5 justify-center">
+                            <FontAwesomeIcon icon={faWhatsapp} size="1x"
+                            />
+                            <span>Whatsapp Kami</span></a>
                     </PricingBody>
                     <PricingBody>
                         <PricingPackageName name="Kedai" classes="bg-orange-100 text-orange-600" />
@@ -38,21 +46,31 @@ function Pricing() {
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
                         </ul>
-                        <a href="#" className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Get started</a>
+                        <a target="_blank" href={WhatsappText({
+                            text: `Hi, saya berminat dengan pakej Kedai`
+                        })} className="text-white flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-md px-5 py-2.5 justify-center">
+                            <FontAwesomeIcon icon={faWhatsapp} size="1x"
+                            />
+                            <span>Whatsapp Kami</span></a>
                     </PricingBody>
                     <PricingBody>
                         <PricingPackageName name="Kilang" classes="bg-pink-100 text-pink-600" />
                         <PricingRate rate="RM 490" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
                             <PricingItem item="5 Konsep Logo" itemHighlight={true} />
-                            <PricingItem item="Siap dalam 5 hari" itemHighlight={true} />
+                            <PricingItem item="Siap dalam 7 hari" itemHighlight={true} />
                             <PricingItem item="3 Kali Perubahan (Revisions)" itemHighlight={true} />
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
                             <PricingItem item="Brand Book" />
                             <PricingItem item="Social Media Kit" />
                         </ul>
-                        <a href="#" className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Get started</a>
+                        <a target="_blank" href={WhatsappText({
+                            text: `Hi, saya berminat dengan pakej Kilang`
+                        })} className="text-white flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-md px-5 py-2.5 justify-center">
+                            <FontAwesomeIcon icon={faWhatsapp} size="1x"
+                            />
+                            <span>Whatsapp Kami</span></a>
                     </PricingBody>
                 </div>
             </div>

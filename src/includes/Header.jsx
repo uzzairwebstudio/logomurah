@@ -4,22 +4,25 @@ function Header() {
     return (
         <section className="bg-white mb-8 px-8 pt-6 pb-16 rounded-2xl">
             <div className="max-w-7xl">
-                <nav className="flex items-center justify-between z-10">
+                <div className="flex md:hidden items-center justify-center">
+                    <img src="/img/logo.svg" alt="Logo img" className="w-16" />
+                </div>
+                <nav className="hidden md:flex items-center justify-between z-10">
                     <div className="">
                         <img src="/img/logo.svg" alt="Logo img" className="w-20" />
                     </div>
                     <ul className="flex items-center space-x-4 lg:space-x-8 font-heading">
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
-                        <Link activeClass="active" className="about" to="about" spy={true} smooth={true} duration={500}>tentang kami</Link>
+                            <Link activeClass="active" className="about" to="about" spy={true} smooth={true} duration={500}>tentang kami</Link>
                         </li>
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
-                        <Link activeClass="active" className="works" to="works" spy={true} smooth={true} duration={500}>hasil kerja</Link>
+                            <Link activeClass="active" className="works" to="works" spy={true} smooth={true} duration={500}>hasil kerja</Link>
                         </li>
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
-                        <Link activeClass="active" className="pricing" to="pricing" spy={true} smooth={true} duration={500}>pakej kami</Link>
+                            <Link activeClass="active" className="pricing" to="pricing" spy={true} smooth={true} duration={500}>pakej kami</Link>
                         </li>
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
