@@ -3,6 +3,8 @@ import About from './includes/About'
 import Header from './includes/Header'
 import Pricing from './includes/Pricing'
 import Works from './includes/Works'
+import Faq from './includes/Faq'
+
 function App() {
 
   return (
@@ -11,6 +13,7 @@ function App() {
       <About />
       <Works />
       <Pricing />
+      <Faq />
     </div>
   )
 }
