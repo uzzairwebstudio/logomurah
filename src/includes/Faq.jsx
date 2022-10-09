@@ -4,7 +4,7 @@ import FaqContent from "../components/FaqContent";
 function Faq() {
     return (
 
-        <div className="py-8 px-32 mx-auto max-w-screen-xl">
+        <div className="py-8 md:px-32 mx-auto max-w-screen-xl">
             <h2 className="mb-8 font-heading text-4xl lg:text-6xl tracking-tight font-extrabold text-gray-800">Soalan Lazim</h2>
             <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 bg-white rounded-xl p-4">
                 <div>
