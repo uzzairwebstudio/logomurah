@@ -5,6 +5,10 @@ import Pricing from './includes/Pricing'
 import Works from './includes/Works'
 import Faq from './includes/Faq'
 import Footer from './includes/Footer'
+import ReactGA from "react-ga4";
+
+ReactGA.initialize('G-QTKJX1VC43')
+ReactGA.send("pageview");
 
 function App() {
 
@@ -15,7 +19,7 @@ function App() {
       <Works />
       <Pricing />
       <Faq />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

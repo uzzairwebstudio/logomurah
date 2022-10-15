@@ -5,6 +5,8 @@ import PricingRate from "../components/PricingRate"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import WhatsappText from "../components/WhatsappText"
+import ReactGA from 'react-ga4';
+
 
 function Pricing() {
 
@@ -31,7 +33,11 @@ function Pricing() {
                         </ul>
                         <a target="_blank" href={WhatsappText({
                             text: `Hi, saya berminat dengan pakej Kiosk`
-                        })} className="text-white flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-md px-5 py-2.5 justify-center">
+                        })} className="text-white flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-md px-5 py-2.5 justify-center" onClick={ReactGA.event({
+                            category: 'Kiosk',
+                            action: 'kioskClicked',
+                            label: 'kioskPackageClicked'
+                        })}>
                             <FontAwesomeIcon icon={faWhatsapp} size="1x"
                             />
                             <span>Whatsapp Kami</span></a>
