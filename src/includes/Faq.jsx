@@ -4,7 +4,11 @@ import FaqContent from "../components/FaqContent";
 function Faq() {
     return (
 
-        <div className="py-8 md:px-32 mx-auto max-w-screen-xl">
+        <div className="py-8 mx-auto max-w-screen-xl">
+            <div className="mb-8 lg:mb-16 inline-flex bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 py-2 px-3 rounded-full justify-center items-center space-x-1">
+                <img src="/img/question-male.png" className="h-16 md:h-28" alt="" />
+                <img src="/img/question-female.png" className="h-16 md:h-28" alt="" />
+            </div>
             <h2 className="mb-8 font-heading text-4xl lg:text-6xl tracking-tight font-extrabold text-gray-800">Soalan Lazim</h2>
             <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16  bg-white rounded-xl p-4">
                 <div>
