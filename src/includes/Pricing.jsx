@@ -23,7 +23,7 @@ function Pricing() {
                 <div className="space-y-8 grid grid-cols-1 lg:grid-cols-3 md:gap-4 lg:space-y-0">
                     <PricingBody>
                         <PricingPackageName name="Kiosk" classes="bg-cyan-100 text-cyan-600" />
-                        <PricingRate rate="RM 119" />
+                        <PricingRate rate="RM 129" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
                             <PricingItem item="1 Konsep Logo" itemHighlight={true} />
                             <PricingItem item="Siap dalam 3 hari" itemHighlight={true} />
@@ -61,7 +61,7 @@ function Pricing() {
                     </PricingBody>
                     <PricingBody>
                         <PricingPackageName name="Kilang" classes="bg-pink-100 text-pink-600" />
-                        <PricingRate rate="RM 490" />
+                        <PricingRate rate="RM 495" />
                         <ul role="list" className="mb-8 space-y-4 text-left">
                             <PricingItem item="5 Konsep Logo" itemHighlight={true} />
                             <PricingItem item="Siap dalam 7 hari" itemHighlight={true} />
