@@ -10,8 +10,8 @@ function About() {
                 </div>
 
                 <p className="font-heading text-gray-400 font-medium text-3xl">siapa Kilang Logo?</p>
-                <p className="text-lg md:text-xl lg:text-2xl font-medium text-gray-700 max-w-xl">
-                    Kami berdedikasi dan fokus dalam pembuatan logo dan ‘brand’. Kilang Logo ditubuhkan dengan tujuan untuk membantu ‘startup’ dan bisnes baharu dapatkan logo yang berkualiti dengan harga yang murah.
+                <p className="text-lg md:text-xl lg:text-2xl font-medium text-gray-700 max-w-xl break-keep">
+                    Kami berdedikasi dan fokus dalam pembuatan logo dan ‘brand’. Kilang Logo ditubuhkan dengan tujuan untuk membantu ‘startup’ dan bisnes dapatkan logo yang berkualiti dengan harga yang murah. Yang penting, logo kami bukan 'template', semuanya 'custom made', <span className="break-normal rounded bg-yellow-300 px-2">lebih asli dan padu</span>.
                 </p>
 
             </div>
@@ -25,7 +25,7 @@ function About() {
                 <div className="rounded-2xl p-6 bg-cyan-50 flex flex-col items-center justify-center space-y-6">
                     <p className="font-heading text-cyan-500 font-semibold text-5xl">3 hari</p>
                     <p className="text-lg md:text-xl lg:text-2xl font-base text-cyan-700 ">
-                        Kami akan siapkan logo anda dalam masa 3 hari.
+                        Kami akan siapkan logo anda secepat 3 hari.
                     </p>
                 </div>
             </div>

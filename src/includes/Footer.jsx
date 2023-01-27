@@ -9,7 +9,7 @@ function Footer() {
                 <nav className="hidden md:flex items-end justify-between z-10">
                     <div className="flex items-end space-x-4">
                         <img src="/img/logo.svg" alt="Logo img" className="w-16" />
-                        <p class="font-heading font-medium text-sm text-gray-500">Hak Cipta Terpelihara, Uzzair Web Studio 2022</p>
+                        <p class="font-heading font-medium text-sm text-gray-500">Hak Cipta Terpelihara, Uzzair Web Studio 2023</p>
                     </div>
                     <ul className="flex items-end space-x-4 lg:space-x-8 font-heading">
 

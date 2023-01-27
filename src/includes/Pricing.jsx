@@ -27,9 +27,10 @@ function Pricing() {
                         <ul role="list" className="mb-8 space-y-4 text-left">
                             <PricingItem item="1 Konsep Logo" itemHighlight={true} />
                             <PricingItem item="Siap dalam 3 hari" itemHighlight={true} />
-                            <PricingItem item="O Kali Perubahan (Revisions)" itemHighlight={true} />
+                            <PricingItem item="1 Kali Perubahan (Revisions)" itemHighlight={true} />
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
+                            <PricingItem item="Fail JPG, PNG, SVG, dan PDF" />
                         </ul>
                         <a target="_blank" href={WhatsappText({
                             text: `Hi, saya berminat dengan pakej Kiosk`
@@ -48,9 +49,10 @@ function Pricing() {
                         <ul role="list" className="mb-8 space-y-4 text-left">
                             <PricingItem item="3 Konsep Logo" itemHighlight={true} />
                             <PricingItem item="Siap dalam 5 hari" itemHighlight={true} />
-                            <PricingItem item="3 Kali Perubahan (Revisions)" itemHighlight={true} />
+                            <PricingItem item="2 Kali Perubahan (Revisions)" itemHighlight={true} />
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
+                            <PricingItem item="Fail JPG, PNG, SVG, dan PDF" />
                         </ul>
                         <a target="_blank" href={WhatsappText({
                             text: `Hi, saya berminat dengan pakej Kedai`
@@ -65,11 +67,12 @@ function Pricing() {
                         <ul role="list" className="mb-8 space-y-4 text-left">
                             <PricingItem item="5 Konsep Logo" itemHighlight={true} />
                             <PricingItem item="Siap dalam 7 hari" itemHighlight={true} />
-                            <PricingItem item="3 Kali Perubahan (Revisions)" itemHighlight={true} />
+                            <PricingItem item="2 Kali Perubahan (Revisions)" itemHighlight={true} />
+                            <PricingItem item="Brand Book" itemHighlight={true}/>
                             <PricingItem item="Warna dan Tipografi" />
                             <PricingItem item="Logo Bersama Mockup" />
-                            <PricingItem item="Brand Book" />
-                            <PricingItem item="Social Media Kit" />
+                            <PricingItem item="Fail JPG, PNG, SVG, dan PDF" />
+                            
                         </ul>
                         <a target="_blank" href={WhatsappText({
                             text: `Hi, saya berminat dengan pakej Kilang`

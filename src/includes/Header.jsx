@@ -1,5 +1,6 @@
 import { Link } from "react-scroll"
-
+import WhatsappText from "../components/WhatsappText"
+import ReactGA from 'react-ga4';
 function Header() {
     return (
         <section className="bg-white mb-8 px-8 pt-6 pb-16 rounded-2xl">
@@ -26,7 +27,13 @@ function Header() {
                         </li>
 
                         <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
-                            <a href="#">hubungi kami</a>
+                            <a href={WhatsappText({
+                            text: `Hi, saya berminat dengan servis Kilang Logo`
+                        })} onClick={ReactGA.event({
+                            category: 'Contact Us',
+                            action: 'contactUs',
+                            label: 'contactUsClicked'
+                        })}>hubungi kami</a>
                         </li>
 
                     </ul>

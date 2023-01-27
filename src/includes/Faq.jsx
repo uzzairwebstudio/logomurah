@@ -17,10 +17,10 @@ function Faq() {
                         <FaqContent content="‘Revision‘ ialah permintaan perubahan pada logo. Perubahan hanya boleh dilakukan dengan tujuan mengolah rekabentuk logo yang telah dibuat sahaja. ‘Revision‘ tidak boleh dilakukan untuk membuat logo baharu." />
                     </FaqBody>
 
-                    <FaqBody>
+                    {/* <FaqBody>
                         <FaqTitle title="Adakah Kilang Logo melakukan servis ‘rebranding’?" />
                         <FaqContent content="Servis Kilang Logo buat masa ini hanya dibuka pada ‘startup’, syarikat dan bisnes baharu sahaja. Proses ‘rebranding’ secara khususnya dilakukan oleh syarikat yang sudah lama tertubuh, oleh kerana itu proses tersebut memerlukan masa yang lebih dan harga yang tidak termasuk dalam pakej Kilang Logo." />
-                    </FaqBody>
+                    </FaqBody> */}
 
                     <FaqBody>
                         <FaqTitle title="Boleh tak nak 'online meet' dengan Kilang Logo?" />
