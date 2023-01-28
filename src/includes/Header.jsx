@@ -14,19 +14,19 @@ function Header() {
                     </div>
                     <ul className="flex items-center space-x-4 lg:space-x-8 font-heading">
 
-                        <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
+                        <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300 hover:cursor-pointer">
                             <Link activeClass="active" className="about" to="about" spy={true} smooth={true} duration={500}>tentang kami</Link>
                         </li>
 
-                        <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
+                        <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300 hover:cursor-pointer">
                             <Link activeClass="active" className="works" to="works" spy={true} smooth={true} duration={500}>hasil kerja</Link>
                         </li>
 
-                        <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
+                        <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300 hover:cursor-pointer">
                             <Link activeClass="active" className="pricing" to="pricing" spy={true} smooth={true} duration={500}>pakej kami</Link>
                         </li>
 
-                        <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300">
+                        <li className="font-medium text-gray-500 md:text-md hover:text-gray-400 transition ease-in-out duration-300 hover:cursor-pointer">
                             <a href={WhatsappText({
                             text: `Hi, saya berminat dengan servis Kilang Logo`
                         })} onClick={ReactGA.event({
