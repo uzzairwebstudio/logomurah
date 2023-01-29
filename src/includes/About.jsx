@@ -17,9 +17,9 @@ function About() {
             </div>
             <div className="col-span-1 grid grid-rows-2 grid-flow-col gap-4">
                 <div className="rounded-2xl p-6 bg-pink-100 flex flex-col items-center justify-center space-y-6">
-                    <p className="font-heading text-pink-500 font-semibold text-5xl">RM 129</p>
+                    <p className="font-heading text-pink-500 font-semibold text-5xl">RM 139</p>
                     <p className="text-lg md:text-xl lg:text-2xl font-base text-pink-700 ">
-                        Servis kami bermula dari serendah RM 129.00 sahaja. Sesuai untuk ‘startup’ dan bisnes baharu.
+                        Servis kami bermula dari serendah RM 139.00 sahaja. Sesuai untuk ‘startup’ dan bisnes baharu.
                     </p>
                 </div>
                 <div className="rounded-2xl p-6 bg-cyan-50 flex flex-col items-center justify-center space-y-6">
